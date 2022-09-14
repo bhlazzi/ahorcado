@@ -85,7 +85,7 @@ function adivinar(event){
 
     if( acerto == false ){
         errores++;
-        const source = `/img/colg${errores}.png` ;
+        const source = `./img/colg${errores}.png` ;
         imagen.src = source;
     }
     if( errores == 6 ){
