@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Css/style.css">
+    <link rel="stylesheet" href="/Css/Normalize.css">
+    <title>ahorcado</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Juego del ahorcado</h1>
+    </header>
+
+    <div class="container_inicio">
+
+      <img src="/img/colg6.png" alt="colgante">
+      <div class="caja_btn">
+
+        <button class="btn" onclick="comenzar()">Iniciar</button>
+      </div>
+    </div>
+    <div class="container_menu">
+      
+      <div class="container_image">
+        <img class="image" src="/img/colg0.png" alt="colgado">
+      </div>
+      <div class="container_rayas">
+        <p class="palabra_secreta">
+          
+        </p>
+      </div>
+      <button id="btn1" onclick="palabraSecreta()">Generar Palabra</button>
+    </div>
+
+    <div class="container_letras">
+      <div id="letras">
+        <button>a</button>
+        <button>b</button>
+        <button>c</button>
+        <button>d</button>
+        <button>e</button>
+        <button>f</button>
+        <button>g</button>
+        <button>h</button>
+        <button>i</button>
+        <button>j</button>
+        <button>k</button>
+        <button>l</button>
+        <button>m</button>
+        <button>n</button>
+        <button>ñ</button>
+        <button>o</button>
+        <button>p</button>
+        <button>q</button>
+        <button>r</button>
+        <button>s</button>
+        <button>t</button>
+        <button>u</button>
+        <button>v</button>
+        <button>w</button>
+        <button>x</button>
+        <button>y</button>
+        <button>z</button>
+      </div>  
+     
+    </div>
+    <footer class="footer">
+        <h2>El juego ahorcado<br><span>es un juego de adivinanzas de lápiz y papel para dos o más jugadores.</span></h2>
+        <p>Elige tus letras y salva al muñeco</p>
+    </footer>
+    <script src="/Css/index.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+ </body>
+</html>
